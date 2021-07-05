@@ -14,7 +14,7 @@ export default function App() {
           <Dictionary />
         </main>
         <footer className="App-footer">
-          <small>Coded by Alyssa Johnasen</small>
+          <small>Coded by <a href="https://www.linkedin.com/in/alyssa-johnasen/" target="_blank" rel="noreferrer">Alyssa Johnasen</a> and open-sourced on <a href="https://github.com/alyssajohnasen/dictionary-app" target="_blank" rel="noreferrer">GitHub</a></small>
         </footer>
       </div>
     </div>
