@@ -13,3 +13,8 @@
   padding: 6px 10px;
   width: 100%;
 }
+
+.Dictionary .hint {
+  font-size: 10px;
+  margin-top: 5px;
+}

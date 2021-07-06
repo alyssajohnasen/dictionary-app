@@ -11,7 +11,7 @@ export default function App() {
         </header>
         <h1 className="text-center">Dictionary App</h1>
         <main>
-          <Dictionary />
+          <Dictionary defaultKeyword="sunset" />
         </main>
         <footer className="App-footer">
           <small>Coded by <a href="https://www.linkedin.com/in/alyssa-johnasen/" target="_blank" rel="noreferrer">Alyssa Johnasen</a> and open-sourced on <a href="https://github.com/alyssajohnasen/dictionary-app" target="_blank" rel="noreferrer">GitHub</a></small>
