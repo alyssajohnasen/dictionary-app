@@ -50,7 +50,14 @@ export default function Dictionary(props) {
         <section>
           <h1>Search for a word</h1>
           <form onSubmit={handleSubmit}>
-            <input type="search" onChange={handleKeywordChange} defaultValue={props.defaultKeyword} />
+            <div className="row">
+              <div className="col-10">
+                <input type="search" onChange={handleKeywordChange} defaultValue={props.defaultKeyword} />
+              </div>
+              <div className="col-2">
+                <button type="submit" className="btn btn-light searchIcon"><i className="fas fa-search"></i></button>
+              </div>
+            </div>
           </form>
           <div className="hint">
             Suggested: sunset, happiness, beach, euphoria, travel

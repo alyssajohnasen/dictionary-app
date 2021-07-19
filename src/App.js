@@ -1,4 +1,4 @@
-import logo from './logo-shecodes.png';
+import logo from './dictionary-header.png';
 import './App.css';
 import Dictionary from './Dictionary'
 
@@ -7,9 +7,8 @@ export default function App() {
     <div className="App">
       <div className="container">
         <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
+          <img src={logo} className="App-logo img-fluid" alt="logo" />
         </header>
-        <h1 className="text-center">Dictionary App</h1>
         <main>
           <Dictionary defaultKeyword="sunset" />
         </main>
