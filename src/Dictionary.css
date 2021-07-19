@@ -2,6 +2,7 @@
   font-size: 20px;
   font-weight: bold;
   margin-bottom: 15px;
+  text-align: center;
 }
 
 .Dictionary section {
@@ -10,6 +11,10 @@
   box-shadow: 0 5px 5px rgb(0 0 0 / 10%);
   padding: 30px;
   margin: 20px 0;
+}
+
+.Dictionary form {
+  padding: 6px 50px;
 }
 
 .Dictionary input {
@@ -23,4 +28,5 @@
 .Dictionary .hint {
   font-size: 10px;
   margin-top: 5px;
+  text-align: center;
 }
