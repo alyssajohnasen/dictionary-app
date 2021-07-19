@@ -3,13 +3,13 @@ import "./Phonetics.css";
 
 export default function Phonetics(props) {
   const audio = new Audio(props.phonetics.audio);
-  const playSound = (audioFile) => {
-    audioFile.play();
+  const playSound = () => {
+    audio.play();
   };
 
   return (
     <div className="Phonetics">
-      <i className="fas fa-volume-up" onClick={() => playSound(audio)}></i>
+      <i className="fas fa-volume-up" onClick={playSound}></i>
       <span className="text">{props.phonetics.text}</span>
     </div>
   )
