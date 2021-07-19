@@ -47,7 +47,7 @@ export default function Dictionary(props) {
   if (loaded) {
     return (
       <div className="Dictionary">
-        <section>
+        <div className="searchForm">
           <h1>Search for a word</h1>
           <form onSubmit={handleSubmit}>
             <div className="row">
@@ -62,7 +62,7 @@ export default function Dictionary(props) {
           <div className="hint">
             Suggested: sunset, happiness, beach, euphoria, travel
           </div>
-        </section>  
+        </div>  
         <Results results={results} />
         <Photos photos={photos} />
       </div>
